@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Whatsapp text chat Editor and Formatter.</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/editor.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+	
+    <div class='header'>
+		 <img src='images/WhatsApp-Editor-Logo.png' width='96px' class='logo' /> <div class='title'> <span class='emoji'>🙏</span> WhatsApp Editor - Open Source</div>
+	</div>
+	
+    <div class="jumbotron">
+
+		<div> <h1 class="display-6 ed-title"><span class='emoji'>👉 </span>Editor and Formatter.<span class='emoji'>✍</span></h1>
+		
+		<div class='btn-copy'> <input type="button" value="Copy to Whatsapp" class="whatsapp-button" onclick="copyForWhatsapp()"> </div> </div>
+		
+		<div id="editor" class="pell"></div>
+		<hr>
+		<div> <h2 class="ed-title"><span class='emoji'>👉 </span>HTML Text Preview. <span class='emoji'>👇</span></h2>  </div>
+		<div style="margin-top:50px;" class="debugCode">
+			<div id="html-output" ></div>
+		</div>
+		
+		<hr>
+		<div> <h2 class="ed-title"><span class='emoji'>👉 </span><span class='wa'>Whatsapp</span> Text Preview. <span class='emoji'>👇</span></h2>  </div>
+
+		<div style="margin-top:65px;" id="divWhatsapp" class="whatsapp-output">
+			<div id="whatsapp-output"  class="whatsapp-output"></div>
+		</div>
+				
+		<div class="row mt-sm-4 mt-md-0 info-panel">
+			<div class="col-sm-12 col-md-8">
+				<h2>How to use the editor and formatter?</h2>
+				<p class="lead">
+					😲 First of it beginning stage alpha editor, it's have lot of buggy, So use carefully!...<br>
+					😕 Before your start edit, copy text any where in your system then past the notepad, After copy text from notepad then past in this editor. Otherwise it make trouble.<br>
+					🥶 You can prepare content for Whatsapp messaging with different formatting style
+					options like <b>bold</b>, <i>italic</i>, <strike>strike through</strike> or <b><i><strike>mixed format</strike></i></b>.
+					<br>
+					😭 Some basic instruction the following steps to format your message.
+					</p>								
+				<p>
+				<h3><span class='emoji'>🧡 </span>Step 1</h3>
+				<p>
+					Type your content or copy paste text from <b>notepad</b>, otherwise it not work correctly.
+				</p>
+				<img class='img-step' src="images/whatsapp-editor-formatter.png" width="80%">
+				
+				<h3><span class='emoji'>💛 </span>Step 2</h3>
+				<p>
+					Select the text you want to format. example after selecting the text click "Bold" for making bold in the toolbar					
+				</p>
+				<img class='img-step' src="images/whatsapp-bold-format.png" width="80%">
+				
+				<h3><span class='emoji'>💚 </span>Step 3</h3>
+				<p>
+					You can see your formatted content.			
+				</p>
+				<img class='img-step' src="images/bold-formatted-output.png" width="80%">				
+
+				<h3><span class='emoji'>💙 </span>Step 4</h3>
+				<p>
+					Alert dialog indicate to formated text copied to clipboard.				
+				</p>
+				<img class='img-step' src="images/formated-text-copied-to-clipboard.png" width="80%">
+				
+				<h3><span class='emoji'>💜 </span>Step 5</h3>
+				<p>
+					After all your fortmat is done then click "Copy to Whatsapp" button					
+				</p>
+				<img class='img-step' src="images/copy-to-whatsapp-text.png" width="80%">
+				
+				<h3><span class='emoji'>🖤 </span>Step 6</h3>
+				<p>
+					Formatted text paste in your web Whatsapp					
+				</p>
+				<img class='img-step' src="images/formated-text-paste-in-web-whatsapp.png" width="80%">
+
+				<h3><span class='emoji'>💗 </span>Step 7</h3>
+				<p>
+					WhatsApp message sent output.					
+				</p>
+				<img class='img-step' src="images/example-formatted-text-output.png" width="80%">
+				
+				<hr>
+				<h3><span class='emoji'>🔗 </span>Reference</h3>
+				<p>
+					<a href='https://github.com/ekalai-org/whatsapp-editor'><img src="images/github.png" width="16px"/> Source Code Download from Github</a>					
+				</p>
+				<p>
+					<a href='https://github.com/jaredreich/pell'><img src="images/pell.png" width="16px"/> pell is the simplest and smallest WYSIWYG text editor for web, with no dependencies</a>					
+				</p>				
+				<p>
+					<a href='http://ekalai.org/donate'>🧑‍🤝‍🧑 Support/Donate</a>					
+				</p>
+
+			</div>
+		</div>
+    </div>
+
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/editor-pell.js"></script>
+	
+	<script type="text/javascript">
+    window.onload = function () {
+        initEditor();
+		let sampleEditContent = "<p><b>How to Use Bold, Italic and Strikethrough Text on WhatsApp</b></p><p>Double click on any word then start edit here....</p><p>Most of us use WhatsApp as one of the primary modes of communication, but how many use the text formatting features? You think you cannot use text formatting in WhatsApp? You can, actually add bold, italic and strikethrough text formats. All you have to do is open a chat thread, and type your text, then bracket the text, which you want to highlight, with the following special characters.</p><p><span style='font-size: 1rem;'>1. <b>Bold</b>: for bold text format, insert a single star symbol (*) before and after your text.&nbsp; &nbsp;</span><span style='font-size: 1rem;'>Example: *Hello*</span></p><p>2. <i>Italic</i>: for italic text format, insert a single underscore (_) before and after your text.&nbsp; &nbsp;<span style='font-size: 1rem;'>Example: _Hello_</span></p><p>Note: The underscore is not referred as “minus” or “dash”.</p><p>3. <strike>Strikethrough</strike>: for strikethrough text format, insert a single tilde symbol (~) before and after your text.&nbsp; &nbsp;<span style='font-size: 1rem;'>Example: ~Hello~</span></p>";
+		let editor = document.getElementsByClassName('pell-content');
+        editor[0].innerHTML  = sampleEditContent;
+    };
+</script>
+
+</body></html>

@@ -1,0 +1,150 @@
+.pell {
+  border: 1px solid rgba(10, 10, 10, 0.1);
+  box-sizing: border-box; }
+
+.pell-content {
+  box-sizing: border-box;
+  height: 300px;
+  outline: 0;
+  overflow-y: auto;
+  padding: 10px; 
+  }
+  
+.col-md-8{
+	flex: 0 0 99%; 
+    max-width: 99%;
+}
+h3{
+	font-size: 1.5em;
+}
+.img-step{
+    border: 1px solid orange;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #fff0c7;
+	margin-bottom: 25px;
+}	
+
+.pell-actionbar {
+  background-color: #FFF;
+  border-bottom: 1px solid rgba(10, 10, 10, 0.1); 
+}
+
+.pell-button {
+    height: 30px;
+    outline: 0;
+    width: 50px;
+    vertical-align: bottom;
+    border: 1px solid lightgray;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #039987;
+}
+
+.pell-button-selected {
+  background-color: #F0F0F0; }
+
+  body {
+    margin: 0;
+    padding: 0;
+}
+.info-panel{
+	width: 99.5%;
+    background: white;
+    margin-left: .3%;
+}
+.jumbotron{
+	padding: 1rem 1rem;
+    margin-bottom: 2rem;
+        background-color: #ffe7cf;
+    border-radius: .3rem;
+}
+.logo{
+	vertical-align: middle;
+    border-style: none;
+    margin: 13px;
+    float: left;
+    border: 1px solid #9d9d89;
+    padding: 3px;
+    border-radius: 50px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 2%;
+    margin-right: 10%;
+    text-shadow: 2px 2px 19px #f8ff8a;
+}
+.header{
+    border: 1px solid #066358;
+    height: 125px;
+    background: #066358;
+}
+.wa{
+	color:green;
+}
+.ed-title{
+	float: left;
+    color: #515151;
+	font-size: 1.9em;
+}
+.btn-copy{
+    text-align: right;	
+}
+.content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+}
+.whatsapp-button {
+    background-color: #039987;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.whatsapp-output {
+	height: 250px;
+	border: 0px;
+    word-wrap: break-word;
+    background: honeydew;
+}	
+}
+
+.debugCode {
+    /* display: none; */
+
+}
+.emoji{
+	font-size:16px;
+}
+#html-output{
+	white-space: pre-wrap;
+	border: 1px solid lightblue;
+	background: white;
+	min-height: 200px;
+}
+.pell-content {
+    height: auto;
+    ;
+}
+#divWhatsapp{
+    border: 1px solid;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+.pell-content{
+  background-color: white;
+}
+
