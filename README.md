@@ -3,7 +3,7 @@ WhatsApp text chat editor with formatter, it's generally used for bold, italic a
 
 
 <h3><span class='emoji'>👀 </span>How it work? Demo</h3>
-<span class='emoji'>🔗 </span> <a href='http://ekalai.org/whatsapp-editor/'  target='_blank'> Live Demo </a>
+<span class='emoji'>🔗 </span> Live Demo: <a href='http://ekalai.org/whatsapp-editor/'> http://ekalai.org/whatsapp-editor </a>
 <p>
 	<div style='text-align:center'>
 	<img class='img-step' src='whatsapp-editor-demo.gif' width='75%' />
@@ -17,5 +17,5 @@ WhatsApp text chat editor with formatter, it's generally used for bold, italic a
 
 <h3><span class='emoji'>🍵 </span>Support</h3>
 <p>
-	<a href='http://ekalai.org/donate' target='_blank'>🧑‍🤝‍🧑 Donate</a>					
+	<a href='http://ekalai.org/donate'>🧑‍🤝‍🧑 Donate</a>					
 </p>
