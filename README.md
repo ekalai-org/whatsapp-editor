@@ -1,7 +1,7 @@
 # whatsapp-editor
 WhatsApp text chat editor with formatter, it's generally used for bold, italic and strike-through  format to word or line to basic WhatsApp text chat formatter.
 
-
+```
 
 				<h3><span class='emoji'>🔗 </span>Reference</h3>
 				<p>
@@ -13,3 +13,4 @@ WhatsApp text chat editor with formatter, it's generally used for bold, italic a
 				<p>
 					<a href='http://ekalai.org/donate'>🧑‍🤝‍🧑 Support/Donate</a>					
 				</p>
+```				
