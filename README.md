@@ -12,7 +12,7 @@ WhatsApp text chat editor with formatter, it's generally used for bold, italic a
 
 <h3><span class='emoji'>🚀 </span>How to run this source code?</h3>
 <p>
-	Download the code, after downloaded zip file, extract it, if extracted then open the folder, run the editor.html file.
+	Download the code, after downloaded zip file, extract it, if extracted then open the folder, open it editor.html file.
 </p>
 
 <h3><span class='emoji'>🔗 </span>Reference</h3>
